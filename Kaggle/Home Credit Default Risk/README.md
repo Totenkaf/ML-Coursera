@@ -1,4 +1,4 @@
-# [Home Credit Default Risk](https://www.kaggle.com/c/titanic)
+# [Home Credit Default Risk]
 
 ## Extensive EDA, Feature engineering, XGBCLassifier Hyperparameter tuning
 
