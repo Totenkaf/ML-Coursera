@@ -1,4 +1,4 @@
-# [Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic)
+# [Titanic: Machine Learning from Disaster]
 
 ## Extensive EDA, Feature engineering, Hyperparameter tuning and Voting classifier
 
