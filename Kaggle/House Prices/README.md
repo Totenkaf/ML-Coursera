@@ -1,4 +1,4 @@
-# [House Prices: Advanced Regression Techniques]
+# [House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
 
 ## Extensive EDA, feature engineering, hyperparameter tuning and stacked regressions
 
