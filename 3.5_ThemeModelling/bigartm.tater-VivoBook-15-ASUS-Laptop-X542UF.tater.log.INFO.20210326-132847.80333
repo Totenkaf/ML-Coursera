@@ -1,0 +1,42 @@
+Log file created at: 2021/03/26 13:28:47
+Running on machine: tater-VivoBook-15-ASUS-Laptop-X542UF
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0326 13:28:47.870896 80333 c_interface.cc:127] Logging enabled to .
+I0326 13:28:47.874022 80333 c_interface.cc:128] BigARTM version: v0.9.2
+I0326 13:28:47.874079 80333 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0326 13:28:47.874127 80333 c_interface.cc:274] Creating MasterModel (id=1)...
+I0326 13:28:47.875046 80333 collection_parser.cc:557] CollectionParserConfig.num_threads is automatically set to 8
+I0326 13:28:47.987529 80333 c_interface.cc:375] Pass 7c0ba9f2-4e8b-43db-b545-77ecbf7c4099 to MN4artm4core15MasterComponentEFvRKSsE
+I0326 13:28:47.987634 80333 c_interface.cc:389] Pass GatherDictionaryArgs: dictionary_target_name=7c0ba9f2-4e8b-43db-b545-77ecbf7c4099, data_path=school_batches, symmetric_cooc_values=0 to MN4artm4core15MasterComponentEFvRKNS_20GatherDictionaryArgsEE
+I0326 13:28:47.987691 80333 dictionary_operations.cc:261] Found 5 batches in 'school_batches' folder
+I0326 13:28:48.019337 80333 dictionary_operations.cc:325] Find 16099 unique tokens in 476 items
+I0326 13:28:48.029594 80333 dictionary_operations.cc:589] Dictionary name='7c0ba9f2-4e8b-43db-b545-77ecbf7c4099' contains entries: text:16099; 
+I0326 13:28:49.043176 80333 c_interface.cc:375] Pass 7c0ba9f2-4e8b-43db-b545-77ecbf7c4099 to MN4artm4core15MasterComponentEFvRKSsE
+I0326 13:28:49.048271 80333 c_interface.cc:339] Disposing MasterComponent (id=1)...
+I0326 13:28:50.072106 80333 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=10, class=(text:1), score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=1, reuse_theta=yes, cache_theta=yes, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0326 13:28:50.072165 80333 instance.cc:401] MasterModelConfig.processors_count is automatically set to 8
+I0326 13:28:50.072244 80386 processor.cc:724] Processor thread started
+I0326 13:28:50.072413 80333 c_interface.cc:274] Creating MasterModel (id=2)...
+I0326 13:28:50.072542 80393 processor.cc:724] Processor thread started
+I0326 13:28:50.072593 80389 processor.cc:724] Processor thread started
+I0326 13:28:50.072654 80392 processor.cc:724] Processor thread started
+I0326 13:28:50.072779 80387 processor.cc:724] Processor thread started
+I0326 13:28:50.072932 80388 processor.cc:724] Processor thread started
+I0326 13:28:50.073171 80391 processor.cc:724] Processor thread started
+I0326 13:28:50.073835 80390 processor.cc:724] Processor thread started
+I0326 13:28:50.092593 80386 processor.cc:740] No data in processing queue, waiting...
+I0326 13:28:50.093042 80393 processor.cc:740] No data in processing queue, waiting...
+I0326 13:28:50.093056 80392 processor.cc:740] No data in processing queue, waiting...
+I0326 13:28:50.093075 80387 processor.cc:740] No data in processing queue, waiting...
+I0326 13:28:50.093104 80389 processor.cc:740] No data in processing queue, waiting...
+I0326 13:28:50.093238 80388 processor.cc:740] No data in processing queue, waiting...
+I0326 13:28:50.093693 80391 processor.cc:740] No data in processing queue, waiting...
+I0326 13:28:50.094219 80390 processor.cc:740] No data in processing queue, waiting...
+I0326 13:28:51.279636 80333 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0326 13:28:51.279714 80333 c_interface.cc:274] Creating MasterModel (id=3)...
+I0326 13:28:51.280411 80333 c_interface.cc:375] Pass dictionary to MN4artm4core15MasterComponentEFvRKSsE
+I0326 13:28:51.281354 80333 c_interface.cc:389] Pass GatherDictionaryArgs: dictionary_target_name=dictionary, data_path=school_batches, symmetric_cooc_values=0 to MN4artm4core15MasterComponentEFvRKNS_20GatherDictionaryArgsEE
+I0326 13:28:51.281646 80333 dictionary_operations.cc:261] Found 5 batches in 'school_batches' folder
+I0326 13:28:51.329665 80333 dictionary_operations.cc:325] Find 16099 unique tokens in 476 items
+I0326 13:28:51.344297 80333 dictionary_operations.cc:589] Dictionary name='dictionary' contains entries: text:16099; 
+I0326 13:29:55.673408 80333 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=10, class=(text:1), score_config_size=2, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=1, reuse_theta=yes, cache_theta=yes, opt_for_avx=yes, disk_cache_path= to MN4artm4core15MasterComponentEFvRKNS_17MasterModelConfigEE

@@ -1,0 +1,14 @@
+Log file created at: 2021/03/26 13:42:36
+Running on machine: tater-VivoBook-15-ASUS-Laptop-X542UF
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0326 13:42:36.597774 81170 check_messages.h:1082] Inconsistent fields size in ThetaMatrix: 1728 vs 0 vs 1728 vs 0;
+W0326 13:50:40.513373 81170 check_messages.h:1082] Inconsistent fields size in ThetaMatrix: 1728 vs 0 vs 1728 vs 0;
+W0326 13:59:05.823272 82653 helpers.cc:221] File already exists: lectures_batches/aaaaaa.batch
+W0326 13:59:05.860050 82657 helpers.cc:221] File already exists: lectures_batches/aaaaab.batch
+W0326 13:59:05.904721 82654 helpers.cc:221] File already exists: lectures_batches/aaaaad.batch
+W0326 13:59:05.914451 82659 helpers.cc:221] File already exists: lectures_batches/aaaaac.batch
+W0326 13:59:05.923872 82660 helpers.cc:221] File already exists: lectures_batches/aaaaag.batch
+W0326 13:59:06.180146 82656 helpers.cc:221] File already exists: lectures_batches/aaaaaf.batch
+W0326 13:59:06.269675 82655 helpers.cc:221] File already exists: lectures_batches/aaaaae.batch
+W0326 14:03:39.745254 81170 check_messages.h:1082] Inconsistent fields size in ThetaMatrix: 1728 vs 0 vs 1728 vs 0;
+W0326 14:03:42.147012 81170 check_messages.h:1082] Inconsistent fields size in ThetaMatrix: 1728 vs 0 vs 1728 vs 0;
