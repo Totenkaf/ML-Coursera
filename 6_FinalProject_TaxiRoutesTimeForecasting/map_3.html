@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ee9ad95d6a204f5ba92782a8f2f5d629 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ee9ad95d6a204f5ba92782a8f2f5d629" ></div>
+        
+</body>
+<script>    
+    
+            var map_ee9ad95d6a204f5ba92782a8f2f5d629 = L.map(
+                "map_ee9ad95d6a204f5ba92782a8f2f5d629",
+                {
+                    center: [40.748817, -73.985428],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ff4638b379aa412fbee379837c549443 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 25, "maxZoom": 25, "minZoom": 5, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ee9ad95d6a204f5ba92782a8f2f5d629);
+        
+    
+            var marker_53b3b0cd3d0c4670ac06c7448ac612fa = L.marker(
+                [40.689247, -74.044502],
+                {}
+            ).addTo(map_ee9ad95d6a204f5ba92782a8f2f5d629);
+        
+    
+        var popup_3151f308730b447687c6ae39d5ea505e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f9e9d6c244a42229883a383bfdcfb1f = $(`<div id="html_9f9e9d6c244a42229883a383bfdcfb1f" style="width: 100.0%; height: 100.0%;"><i>Mt. Hood Meadows</i></div>`)[0];
+            popup_3151f308730b447687c6ae39d5ea505e.setContent(html_9f9e9d6c244a42229883a383bfdcfb1f);
+        
+
+        marker_53b3b0cd3d0c4670ac06c7448ac612fa.bindPopup(popup_3151f308730b447687c6ae39d5ea505e)
+        ;
+
+        
+    
+    
+            marker_53b3b0cd3d0c4670ac06c7448ac612fa.bindTooltip(
+                `<div>
+                     OpenStreetMap
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8c43f138882945c3b1d90593f492e2a8 = L.marker(
+                [40.679247000000004, -74.044502],
+                {}
+            ).addTo(map_ee9ad95d6a204f5ba92782a8f2f5d629);
+        
+    
+            var div_icon_37d45fd4dd844bea9806f5c076e282fb = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 10pt\"\u003e\u003cb\u003eStatue Of Liberty\u003c/b\u003e\u003c/div\u003e", "iconAnchor": [0, 20], "iconSize": [120, 36]});
+            marker_8c43f138882945c3b1d90593f492e2a8.setIcon(div_icon_37d45fd4dd844bea9806f5c076e282fb);
+        
+</script>
