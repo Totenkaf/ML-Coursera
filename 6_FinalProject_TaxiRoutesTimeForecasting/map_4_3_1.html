@@ -1,0 +1,1491 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_27c6a03ae2264b6ca1c00034a863a154 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_27c6a03ae2264b6ca1c00034a863a154" ></div>
+        
+</body>
+<script>    
+    
+            var map_27c6a03ae2264b6ca1c00034a863a154 = L.map(
+                "map_27c6a03ae2264b6ca1c00034a863a154",
+                {
+                    center: [40.75, -73.96],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_199fdbc15a584fd68dccee0e84b17ace = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            var rectangle_72e9cfac90084a2cb04dbf2c41434ea7 = L.rectangle(
+                [[40.6974368, -74.0222464], [40.705825, -74.0222464], [40.705825, -74.0111348], [40.6974368, -74.0111348]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_72e9cfac90084a2cb04dbf2c41434ea7.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_5c076758106048239dd38418c612a937 = L.rectangle(
+                [[40.705825, -74.0222464], [40.7142132, -74.0222464], [40.7142132, -74.0111348], [40.705825, -74.0111348]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_5c076758106048239dd38418c612a937.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_b37604db31f44409af7c385f12f867fe = L.rectangle(
+                [[40.7142132, -74.0222464], [40.7226014, -74.0222464], [40.7226014, -74.0111348], [40.7142132, -74.0111348]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_b37604db31f44409af7c385f12f867fe.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_0dc090faae024252a5953188d72b37ee = L.rectangle(
+                [[40.6974368, -74.0111348], [40.705825, -74.0111348], [40.705825, -74.0000232], [40.6974368, -74.0000232]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_0dc090faae024252a5953188d72b37ee.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_0298202123a7431980d8d2fa571bc7ca = L.rectangle(
+                [[40.705825, -74.0111348], [40.7142132, -74.0111348], [40.7142132, -74.0000232], [40.705825, -74.0000232]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_0298202123a7431980d8d2fa571bc7ca.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_2fd2c9b56db04548abff51e55a675bed = L.rectangle(
+                [[40.7142132, -74.0111348], [40.7226014, -74.0111348], [40.7226014, -74.0000232], [40.7142132, -74.0000232]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_2fd2c9b56db04548abff51e55a675bed.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_4d1785e17209440da1cb2f58e3c4a73d = L.rectangle(
+                [[40.7226014, -74.0111348], [40.7309896, -74.0111348], [40.7309896, -74.0000232], [40.7226014, -74.0000232]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_4d1785e17209440da1cb2f58e3c4a73d.bindTooltip(
+                `<div>
+                     Кластер 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_d8120098d0c44d86a6df5b55af8c252a = L.rectangle(
+                [[40.7309896, -74.0111348], [40.7393778, -74.0111348], [40.7393778, -74.0000232], [40.7309896, -74.0000232]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_d8120098d0c44d86a6df5b55af8c252a.bindTooltip(
+                `<div>
+                     Кластер 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_391f4fc69c0d4c06aa1daa4bcc946ec5 = L.rectangle(
+                [[40.7393778, -74.0111348], [40.747766, -74.0111348], [40.747766, -74.0000232], [40.7393778, -74.0000232]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_391f4fc69c0d4c06aa1daa4bcc946ec5.bindTooltip(
+                `<div>
+                     Кластер 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_017a516486ea498f8f74338124eac2e8 = L.rectangle(
+                [[40.747766, -74.0111348], [40.7561542, -74.0111348], [40.7561542, -74.0000232], [40.747766, -74.0000232]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_017a516486ea498f8f74338124eac2e8.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_1dfc44a486bf4d088f7a0d587371a6bf = L.rectangle(
+                [[40.7561542, -74.0111348], [40.7645424, -74.0111348], [40.7645424, -74.0000232], [40.7561542, -74.0000232]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_1dfc44a486bf4d088f7a0d587371a6bf.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_b2e00b4e758d40a19a7d0c058ea51cb4 = L.rectangle(
+                [[40.6722722, -74.0000232], [40.6806604, -74.0000232], [40.6806604, -73.9889116], [40.6722722, -73.9889116]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_b2e00b4e758d40a19a7d0c058ea51cb4.bindTooltip(
+                `<div>
+                     Кластер 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_24e75a7940c94acea2067ee4f19fa400 = L.rectangle(
+                [[40.6806604, -74.0000232], [40.6890486, -74.0000232], [40.6890486, -73.9889116], [40.6806604, -73.9889116]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_24e75a7940c94acea2067ee4f19fa400.bindTooltip(
+                `<div>
+                     Кластер 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_307ae4a4da59443bb92f725e6fc33d57 = L.rectangle(
+                [[40.6890486, -74.0000232], [40.6974368, -74.0000232], [40.6974368, -73.9889116], [40.6890486, -73.9889116]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_307ae4a4da59443bb92f725e6fc33d57.bindTooltip(
+                `<div>
+                     Кластер 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_18ef9d8c59ec49a9a1c1cb5f63ac8ac5 = L.rectangle(
+                [[40.6974368, -74.0000232], [40.705825, -74.0000232], [40.705825, -73.9889116], [40.6974368, -73.9889116]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_18ef9d8c59ec49a9a1c1cb5f63ac8ac5.bindTooltip(
+                `<div>
+                     Кластер 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_b50758803c154df9b93fd52e788427c8 = L.rectangle(
+                [[40.705825, -74.0000232], [40.7142132, -74.0000232], [40.7142132, -73.9889116], [40.705825, -73.9889116]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_b50758803c154df9b93fd52e788427c8.bindTooltip(
+                `<div>
+                     Кластер 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_093d192822ec40c1a3194809e7ce1755 = L.rectangle(
+                [[40.7142132, -74.0000232], [40.7226014, -74.0000232], [40.7226014, -73.9889116], [40.7142132, -73.9889116]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_093d192822ec40c1a3194809e7ce1755.bindTooltip(
+                `<div>
+                     Кластер 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_b9cb11c0ba6b4d9db63e86e22d454dd4 = L.rectangle(
+                [[40.7226014, -74.0000232], [40.7309896, -74.0000232], [40.7309896, -73.9889116], [40.7226014, -73.9889116]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_b9cb11c0ba6b4d9db63e86e22d454dd4.bindTooltip(
+                `<div>
+                     Кластер 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_28d7c623bdd247e09f1103d03c6cc608 = L.rectangle(
+                [[40.7309896, -74.0000232], [40.7393778, -74.0000232], [40.7393778, -73.9889116], [40.7309896, -73.9889116]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_28d7c623bdd247e09f1103d03c6cc608.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_8cded03f314b46b0bb1d34ee45d8d866 = L.rectangle(
+                [[40.7393778, -74.0000232], [40.747766, -74.0000232], [40.747766, -73.9889116], [40.7393778, -73.9889116]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_8cded03f314b46b0bb1d34ee45d8d866.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_fa137a0e7c5640fa9a001737fd25512e = L.rectangle(
+                [[40.747766, -74.0000232], [40.7561542, -74.0000232], [40.7561542, -73.9889116], [40.747766, -73.9889116]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_fa137a0e7c5640fa9a001737fd25512e.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_2a6be12d87e64a90a73f1bd31b5ad934 = L.rectangle(
+                [[40.7561542, -74.0000232], [40.7645424, -74.0000232], [40.7645424, -73.9889116], [40.7561542, -73.9889116]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_2a6be12d87e64a90a73f1bd31b5ad934.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_3ced0006ce3f4a67a4d71a12beb282df = L.rectangle(
+                [[40.7645424, -74.0000232], [40.7729306, -74.0000232], [40.7729306, -73.9889116], [40.7645424, -73.9889116]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_3ced0006ce3f4a67a4d71a12beb282df.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_f610e03fa183459cad241ed413ce01a6 = L.rectangle(
+                [[40.7729306, -74.0000232], [40.7813188, -74.0000232], [40.7813188, -73.9889116], [40.7729306, -73.9889116]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_f610e03fa183459cad241ed413ce01a6.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_2ef95a9d0bbe406ebceff29f36814c01 = L.rectangle(
+                [[40.663884, -73.9889116], [40.6722722, -73.9889116], [40.6722722, -73.9778], [40.663884, -73.9778]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_2ef95a9d0bbe406ebceff29f36814c01.bindTooltip(
+                `<div>
+                     Кластер 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_2a8ffec778ba43dc8ba75ea4840fec75 = L.rectangle(
+                [[40.6722722, -73.9889116], [40.6806604, -73.9889116], [40.6806604, -73.9778], [40.6722722, -73.9778]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_2a8ffec778ba43dc8ba75ea4840fec75.bindTooltip(
+                `<div>
+                     Кластер 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_835e7d6eb5444dc5b972e5286d2e95e9 = L.rectangle(
+                [[40.6806604, -73.9889116], [40.6890486, -73.9889116], [40.6890486, -73.9778], [40.6806604, -73.9778]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_835e7d6eb5444dc5b972e5286d2e95e9.bindTooltip(
+                `<div>
+                     Кластер 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_4022a25156cf4dea9ce1da132be5704f = L.rectangle(
+                [[40.6890486, -73.9889116], [40.6974368, -73.9889116], [40.6974368, -73.9778], [40.6890486, -73.9778]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_4022a25156cf4dea9ce1da132be5704f.bindTooltip(
+                `<div>
+                     Кластер 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_55002d2775b84411b0cfd5e0c4f29c9c = L.rectangle(
+                [[40.6974368, -73.9889116], [40.705825, -73.9889116], [40.705825, -73.9778], [40.6974368, -73.9778]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_55002d2775b84411b0cfd5e0c4f29c9c.bindTooltip(
+                `<div>
+                     Кластер 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_3dec976d33fb4592b265a45a4e50e158 = L.rectangle(
+                [[40.7142132, -73.9889116], [40.7226014, -73.9889116], [40.7226014, -73.9778], [40.7142132, -73.9778]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_3dec976d33fb4592b265a45a4e50e158.bindTooltip(
+                `<div>
+                     Кластер 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_4512aaa1043d4b8d88837bd01e007018 = L.rectangle(
+                [[40.7226014, -73.9889116], [40.7309896, -73.9889116], [40.7309896, -73.9778], [40.7226014, -73.9778]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_4512aaa1043d4b8d88837bd01e007018.bindTooltip(
+                `<div>
+                     Кластер 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_978e4a3d6174450f8e8da55bcf13dda7 = L.rectangle(
+                [[40.7309896, -73.9889116], [40.7393778, -73.9889116], [40.7393778, -73.9778], [40.7309896, -73.9778]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_978e4a3d6174450f8e8da55bcf13dda7.bindTooltip(
+                `<div>
+                     Кластер 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_d6a33eb3911040b1bb671423741bec09 = L.rectangle(
+                [[40.7393778, -73.9889116], [40.747766, -73.9889116], [40.747766, -73.9778], [40.7393778, -73.9778]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_d6a33eb3911040b1bb671423741bec09.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_5f88ea60403a4b7eb94c34741f40c7cf = L.rectangle(
+                [[40.747766, -73.9889116], [40.7561542, -73.9889116], [40.7561542, -73.9778], [40.747766, -73.9778]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_5f88ea60403a4b7eb94c34741f40c7cf.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_209b32468b584618b2adee1cae06383e = L.rectangle(
+                [[40.7561542, -73.9889116], [40.7645424, -73.9889116], [40.7645424, -73.9778], [40.7561542, -73.9778]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_209b32468b584618b2adee1cae06383e.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_57c47d57f2524df4953cd42db31f53ab = L.rectangle(
+                [[40.7645424, -73.9889116], [40.7729306, -73.9889116], [40.7729306, -73.9778], [40.7645424, -73.9778]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_57c47d57f2524df4953cd42db31f53ab.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_ffec6778d59c48a7a8c2416bb791ca95 = L.rectangle(
+                [[40.7729306, -73.9889116], [40.7813188, -73.9889116], [40.7813188, -73.9778], [40.7729306, -73.9778]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_ffec6778d59c48a7a8c2416bb791ca95.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_1edf154625d84146adcab19b27f306bb = L.rectangle(
+                [[40.7813188, -73.9889116], [40.789707, -73.9889116], [40.789707, -73.9778], [40.7813188, -73.9778]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_1edf154625d84146adcab19b27f306bb.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_b4e088ec58ed48a98bf5ce5f2386bd36 = L.rectangle(
+                [[40.6722722, -73.9778], [40.6806604, -73.9778], [40.6806604, -73.9666884], [40.6722722, -73.9666884]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_b4e088ec58ed48a98bf5ce5f2386bd36.bindTooltip(
+                `<div>
+                     Кластер 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_eff3bcbc3e66478cbd848e5032018882 = L.rectangle(
+                [[40.6806604, -73.9778], [40.6890486, -73.9778], [40.6890486, -73.9666884], [40.6806604, -73.9666884]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_eff3bcbc3e66478cbd848e5032018882.bindTooltip(
+                `<div>
+                     Кластер 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_f6f5dfdee307419bb5faec4a5ad909a2 = L.rectangle(
+                [[40.6890486, -73.9778], [40.6974368, -73.9778], [40.6974368, -73.9666884], [40.6890486, -73.9666884]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_f6f5dfdee307419bb5faec4a5ad909a2.bindTooltip(
+                `<div>
+                     Кластер 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_92d31f248c384aaf921411878ebfcc98 = L.rectangle(
+                [[40.7226014, -73.9778], [40.7309896, -73.9778], [40.7309896, -73.9666884], [40.7226014, -73.9666884]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_92d31f248c384aaf921411878ebfcc98.bindTooltip(
+                `<div>
+                     Кластер 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_ca9eeb5fe3e1450eb062069529654874 = L.rectangle(
+                [[40.7309896, -73.9778], [40.7393778, -73.9778], [40.7393778, -73.9666884], [40.7309896, -73.9666884]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_ca9eeb5fe3e1450eb062069529654874.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_15ec4f27265242b8b82beb11d2ffa517 = L.rectangle(
+                [[40.7393778, -73.9778], [40.747766, -73.9778], [40.747766, -73.9666884], [40.7393778, -73.9666884]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_15ec4f27265242b8b82beb11d2ffa517.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_b7dda39f370f41e387800c2f673cb0a8 = L.rectangle(
+                [[40.747766, -73.9778], [40.7561542, -73.9778], [40.7561542, -73.9666884], [40.747766, -73.9666884]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_b7dda39f370f41e387800c2f673cb0a8.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_bb2651102a3944bbb0879d16f8891615 = L.rectangle(
+                [[40.7561542, -73.9778], [40.7645424, -73.9778], [40.7645424, -73.9666884], [40.7561542, -73.9666884]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_bb2651102a3944bbb0879d16f8891615.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_66b6b22d55f748ffa4575968df4eda0e = L.rectangle(
+                [[40.7645424, -73.9778], [40.7729306, -73.9778], [40.7729306, -73.9666884], [40.7645424, -73.9666884]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_66b6b22d55f748ffa4575968df4eda0e.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_db7412f7120d418b8fa77c44a3894a18 = L.rectangle(
+                [[40.7729306, -73.9778], [40.7813188, -73.9778], [40.7813188, -73.9666884], [40.7729306, -73.9666884]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_db7412f7120d418b8fa77c44a3894a18.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_47fe9de43ae2490eb0e5c767ff49fd9c = L.rectangle(
+                [[40.7813188, -73.9778], [40.789707, -73.9778], [40.789707, -73.9666884], [40.7813188, -73.9666884]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_47fe9de43ae2490eb0e5c767ff49fd9c.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_65ff3273985e43d5b68f2dd718006ae6 = L.rectangle(
+                [[40.789707, -73.9778], [40.7980952, -73.9778], [40.7980952, -73.9666884], [40.789707, -73.9666884]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_65ff3273985e43d5b68f2dd718006ae6.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_916ce9f3522340c48dab77dec143acb6 = L.rectangle(
+                [[40.7980952, -73.9778], [40.8064834, -73.9778], [40.8064834, -73.9666884], [40.7980952, -73.9666884]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_916ce9f3522340c48dab77dec143acb6.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_8080d95791e740a2b4c089fbdadf8b2e = L.rectangle(
+                [[40.705825, -73.9666884], [40.7142132, -73.9666884], [40.7142132, -73.9555768], [40.705825, -73.9555768]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_8080d95791e740a2b4c089fbdadf8b2e.bindTooltip(
+                `<div>
+                     Кластер 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_0a452124369747c1ab8fdf72cdd346d5 = L.rectangle(
+                [[40.7142132, -73.9666884], [40.7226014, -73.9666884], [40.7226014, -73.9555768], [40.7142132, -73.9555768]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_0a452124369747c1ab8fdf72cdd346d5.bindTooltip(
+                `<div>
+                     Кластер 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_e34f66afa493402ab2a02ffba188d51d = L.rectangle(
+                [[40.747766, -73.9666884], [40.7561542, -73.9666884], [40.7561542, -73.9555768], [40.747766, -73.9555768]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_e34f66afa493402ab2a02ffba188d51d.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_0583d238ec3745ab872d21e6c0cda80e = L.rectangle(
+                [[40.7561542, -73.9666884], [40.7645424, -73.9666884], [40.7645424, -73.9555768], [40.7561542, -73.9555768]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_0583d238ec3745ab872d21e6c0cda80e.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_96c91a8dbfce4cdfb90dffa82a036f4d = L.rectangle(
+                [[40.7645424, -73.9666884], [40.7729306, -73.9666884], [40.7729306, -73.9555768], [40.7645424, -73.9555768]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_96c91a8dbfce4cdfb90dffa82a036f4d.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_ff74e02961c145c59844d9f1c7f5cb1b = L.rectangle(
+                [[40.7729306, -73.9666884], [40.7813188, -73.9666884], [40.7813188, -73.9555768], [40.7729306, -73.9555768]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_ff74e02961c145c59844d9f1c7f5cb1b.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_0bdca81db1804872981bce2a8a62fd69 = L.rectangle(
+                [[40.7813188, -73.9666884], [40.789707, -73.9666884], [40.789707, -73.9555768], [40.7813188, -73.9555768]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_0bdca81db1804872981bce2a8a62fd69.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_79c801a00d644b95ac8cb74a2d0dc0b7 = L.rectangle(
+                [[40.789707, -73.9666884], [40.7980952, -73.9666884], [40.7980952, -73.9555768], [40.789707, -73.9555768]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_79c801a00d644b95ac8cb74a2d0dc0b7.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_dc0a8d981f0640cd8362efacec0045a5 = L.rectangle(
+                [[40.7980952, -73.9666884], [40.8064834, -73.9666884], [40.8064834, -73.9555768], [40.7980952, -73.9555768]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_dc0a8d981f0640cd8362efacec0045a5.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_20d02f495cf945abaccd4a0e52cfaf25 = L.rectangle(
+                [[40.8064834, -73.9666884], [40.8148716, -73.9666884], [40.8148716, -73.9555768], [40.8064834, -73.9555768]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_20d02f495cf945abaccd4a0e52cfaf25.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_ee8cc35e81f543d8a7f7aedbcce2227e = L.rectangle(
+                [[40.8148716, -73.9666884], [40.8232598, -73.9666884], [40.8232598, -73.9555768], [40.8148716, -73.9555768]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_ee8cc35e81f543d8a7f7aedbcce2227e.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_1d2cf926297240fcb3caf22be6b0b7d2 = L.rectangle(
+                [[40.705825, -73.9555768], [40.7142132, -73.9555768], [40.7142132, -73.9444652], [40.705825, -73.9444652]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_1d2cf926297240fcb3caf22be6b0b7d2.bindTooltip(
+                `<div>
+                     Кластер 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_ffe15fabbf4c4faeb570318d950a7af6 = L.rectangle(
+                [[40.7142132, -73.9555768], [40.7226014, -73.9555768], [40.7226014, -73.9444652], [40.7142132, -73.9444652]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_ffe15fabbf4c4faeb570318d950a7af6.bindTooltip(
+                `<div>
+                     Кластер 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_5042581fe00b4a58b932c7e4acf4f550 = L.rectangle(
+                [[40.7226014, -73.9555768], [40.7309896, -73.9555768], [40.7309896, -73.9444652], [40.7226014, -73.9444652]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_5042581fe00b4a58b932c7e4acf4f550.bindTooltip(
+                `<div>
+                     Кластер 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_bc5dd7273c184f85869c3d018e53ff16 = L.rectangle(
+                [[40.7393778, -73.9555768], [40.747766, -73.9555768], [40.747766, -73.9444652], [40.7393778, -73.9444652]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_bc5dd7273c184f85869c3d018e53ff16.bindTooltip(
+                `<div>
+                     Кластер 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_0ee415947e854175b1918da2a11d702e = L.rectangle(
+                [[40.7561542, -73.9555768], [40.7645424, -73.9555768], [40.7645424, -73.9444652], [40.7561542, -73.9444652]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_0ee415947e854175b1918da2a11d702e.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_1ec209909e30474db09bc5c6533e6a10 = L.rectangle(
+                [[40.7645424, -73.9555768], [40.7729306, -73.9555768], [40.7729306, -73.9444652], [40.7645424, -73.9444652]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_1ec209909e30474db09bc5c6533e6a10.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_db8c9ccbcea143439fc517681148bf00 = L.rectangle(
+                [[40.7729306, -73.9555768], [40.7813188, -73.9555768], [40.7813188, -73.9444652], [40.7729306, -73.9444652]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_db8c9ccbcea143439fc517681148bf00.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_fc69ae660aa34518a67cacf7a5e3dace = L.rectangle(
+                [[40.7813188, -73.9555768], [40.789707, -73.9555768], [40.789707, -73.9444652], [40.7813188, -73.9444652]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_fc69ae660aa34518a67cacf7a5e3dace.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_4ddb4d2b318144ac8d51ef6b2dbf9c5f = L.rectangle(
+                [[40.789707, -73.9555768], [40.7980952, -73.9555768], [40.7980952, -73.9444652], [40.789707, -73.9444652]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_4ddb4d2b318144ac8d51ef6b2dbf9c5f.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_53f07f624e2c44efbd5636769ead7073 = L.rectangle(
+                [[40.7980952, -73.9555768], [40.8064834, -73.9555768], [40.8064834, -73.9444652], [40.7980952, -73.9444652]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_53f07f624e2c44efbd5636769ead7073.bindTooltip(
+                `<div>
+                     Кластер 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_c3eb04bfc08c4bfdbe445003a5bf0132 = L.rectangle(
+                [[40.8064834, -73.9555768], [40.8148716, -73.9555768], [40.8148716, -73.9444652], [40.8064834, -73.9444652]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_c3eb04bfc08c4bfdbe445003a5bf0132.bindTooltip(
+                `<div>
+                     Кластер 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_5040a496bca648a6bfaf9f2cfb96cc2e = L.rectangle(
+                [[40.8148716, -73.9555768], [40.8232598, -73.9555768], [40.8232598, -73.9444652], [40.8148716, -73.9444652]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_5040a496bca648a6bfaf9f2cfb96cc2e.bindTooltip(
+                `<div>
+                     Кластер 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_dea7f4985a304587a0eb3e9c94cf10ac = L.rectangle(
+                [[40.8232598, -73.9555768], [40.831648, -73.9555768], [40.831648, -73.9444652], [40.8232598, -73.9444652]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_dea7f4985a304587a0eb3e9c94cf10ac.bindTooltip(
+                `<div>
+                     Кластер 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_56b2283dc22f4a509fbcf8fddc2eb250 = L.rectangle(
+                [[40.705825, -73.9444652], [40.7142132, -73.9444652], [40.7142132, -73.9333536], [40.705825, -73.9333536]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_56b2283dc22f4a509fbcf8fddc2eb250.bindTooltip(
+                `<div>
+                     Кластер 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_13597e8433194dd5b188701b2238790f = L.rectangle(
+                [[40.747766, -73.9444652], [40.7561542, -73.9444652], [40.7561542, -73.9333536], [40.747766, -73.9333536]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_13597e8433194dd5b188701b2238790f.bindTooltip(
+                `<div>
+                     Кластер 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_7a6020e44fa0475cb43c43729c3e6681 = L.rectangle(
+                [[40.7561542, -73.9444652], [40.7645424, -73.9444652], [40.7645424, -73.9333536], [40.7561542, -73.9333536]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_7a6020e44fa0475cb43c43729c3e6681.bindTooltip(
+                `<div>
+                     Кластер 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_5d21e90a6ed345e69604ffc7e78a630e = L.rectangle(
+                [[40.7729306, -73.9444652], [40.7813188, -73.9444652], [40.7813188, -73.9333536], [40.7729306, -73.9333536]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_5d21e90a6ed345e69604ffc7e78a630e.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_d825c2301ee14622b6f3604cac0ba58e = L.rectangle(
+                [[40.7813188, -73.9444652], [40.789707, -73.9444652], [40.789707, -73.9333536], [40.7813188, -73.9333536]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_d825c2301ee14622b6f3604cac0ba58e.bindTooltip(
+                `<div>
+                     Кластер 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_3d2502a895ea4fca86d35599c888c0a2 = L.rectangle(
+                [[40.789707, -73.9444652], [40.7980952, -73.9444652], [40.7980952, -73.9333536], [40.789707, -73.9333536]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_3d2502a895ea4fca86d35599c888c0a2.bindTooltip(
+                `<div>
+                     Кластер 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_b01af2f592cd45bc9b8e4e81e566c37a = L.rectangle(
+                [[40.7980952, -73.9444652], [40.8064834, -73.9444652], [40.8064834, -73.9333536], [40.7980952, -73.9333536]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_b01af2f592cd45bc9b8e4e81e566c37a.bindTooltip(
+                `<div>
+                     Кластер 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_4dfdf2c22f034af3b3f7c5f25c26503a = L.rectangle(
+                [[40.8064834, -73.9444652], [40.8148716, -73.9444652], [40.8148716, -73.9333536], [40.8064834, -73.9333536]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_4dfdf2c22f034af3b3f7c5f25c26503a.bindTooltip(
+                `<div>
+                     Кластер 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_3045422cdf3f40e4bfd5e595c378b609 = L.rectangle(
+                [[40.8148716, -73.9444652], [40.8232598, -73.9444652], [40.8232598, -73.9333536], [40.8148716, -73.9333536]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_3045422cdf3f40e4bfd5e595c378b609.bindTooltip(
+                `<div>
+                     Кластер 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_029cfa7d2a884d378ee29e22d50f607f = L.rectangle(
+                [[40.8400362, -73.9444652], [40.8484244, -73.9444652], [40.8484244, -73.9333536], [40.8400362, -73.9333536]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_029cfa7d2a884d378ee29e22d50f607f.bindTooltip(
+                `<div>
+                     Кластер 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_241541b18ef043bcbd091b715354c3f0 = L.rectangle(
+                [[40.7393778, -73.9333536], [40.747766, -73.9333536], [40.747766, -73.922242], [40.7393778, -73.922242]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_241541b18ef043bcbd091b715354c3f0.bindTooltip(
+                `<div>
+                     Кластер 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_6e91fc757f2a4b27ba672d682d4230b3 = L.rectangle(
+                [[40.7561542, -73.9333536], [40.7645424, -73.9333536], [40.7645424, -73.922242], [40.7561542, -73.922242]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_6e91fc757f2a4b27ba672d682d4230b3.bindTooltip(
+                `<div>
+                     Кластер 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_1de6de27cc314447943620286ee893b7 = L.rectangle(
+                [[40.7645424, -73.9333536], [40.7729306, -73.9333536], [40.7729306, -73.922242], [40.7645424, -73.922242]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_1de6de27cc314447943620286ee893b7.bindTooltip(
+                `<div>
+                     Кластер 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_768445d6fb894ccc9a655792510f6f20 = L.rectangle(
+                [[40.7393778, -73.922242], [40.747766, -73.922242], [40.747766, -73.9111304], [40.7393778, -73.9111304]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_768445d6fb894ccc9a655792510f6f20.bindTooltip(
+                `<div>
+                     Кластер 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_9d22f8f6c04f462c8ae70365fcb5bb85 = L.rectangle(
+                [[40.7561542, -73.922242], [40.7645424, -73.922242], [40.7645424, -73.9111304], [40.7561542, -73.9111304]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_9d22f8f6c04f462c8ae70365fcb5bb85.bindTooltip(
+                `<div>
+                     Кластер 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_eeb95fe433a74e59bcfecff6af1f6f3f = L.rectangle(
+                [[40.7645424, -73.922242], [40.7729306, -73.922242], [40.7729306, -73.9111304], [40.7645424, -73.9111304]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_eeb95fe433a74e59bcfecff6af1f6f3f.bindTooltip(
+                `<div>
+                     Кластер 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_2e3f007b5fe54d8d800b0ad0b84cd863 = L.rectangle(
+                [[40.7393778, -73.9111304], [40.747766, -73.9111304], [40.747766, -73.9000188], [40.7393778, -73.9000188]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_2e3f007b5fe54d8d800b0ad0b84cd863.bindTooltip(
+                `<div>
+                     Кластер 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_2790f094f6a447fe9ab893324f539856 = L.rectangle(
+                [[40.7393778, -73.9000188], [40.747766, -73.9000188], [40.747766, -73.8889072], [40.7393778, -73.8889072]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_2790f094f6a447fe9ab893324f539856.bindTooltip(
+                `<div>
+                     Кластер 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_ab74a0fac1e440b9974cc373d969d3e9 = L.rectangle(
+                [[40.7729306, -73.8889072], [40.7813188, -73.8889072], [40.7813188, -73.8777956], [40.7729306, -73.8777956]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_ab74a0fac1e440b9974cc373d969d3e9.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_1b7c16848cb0411aad967698540cf9c9 = L.rectangle(
+                [[40.7645424, -73.8777956], [40.7729306, -73.8777956], [40.7729306, -73.866684], [40.7645424, -73.866684]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_1b7c16848cb0411aad967698540cf9c9.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_cd0ac85cc89149b8b4c2a24ff16ed203 = L.rectangle(
+                [[40.7729306, -73.8777956], [40.7813188, -73.8777956], [40.7813188, -73.866684], [40.7729306, -73.866684]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_cd0ac85cc89149b8b4c2a24ff16ed203.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_81747696ad91431f99bfd6d811a2334c = L.rectangle(
+                [[40.7645424, -73.866684], [40.7729306, -73.866684], [40.7729306, -73.8555724], [40.7645424, -73.8555724]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_81747696ad91431f99bfd6d811a2334c.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_55e374c7ba8242a0b6edcc69c049046c = L.rectangle(
+                [[40.6387194, -73.8000144], [40.6471076, -73.8000144], [40.6471076, -73.7889028], [40.6387194, -73.7889028]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_55e374c7ba8242a0b6edcc69c049046c.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_221ada12e99941119a5a1e4052c77ea9 = L.rectangle(
+                [[40.6471076, -73.8000144], [40.6554958, -73.8000144], [40.6554958, -73.7889028], [40.6471076, -73.7889028]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_221ada12e99941119a5a1e4052c77ea9.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_5e8db23e0b724f558dc60e003703465d = L.rectangle(
+                [[40.6387194, -73.7889028], [40.6471076, -73.7889028], [40.6471076, -73.7777912], [40.6387194, -73.7777912]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_5e8db23e0b724f558dc60e003703465d.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_a8ddb58cfe734da5b78529f48351e6d9 = L.rectangle(
+                [[40.6471076, -73.7889028], [40.6554958, -73.7889028], [40.6554958, -73.7777912], [40.6471076, -73.7777912]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_a8ddb58cfe734da5b78529f48351e6d9.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_70597a770d9b41638d71d07a52f5730a = L.rectangle(
+                [[40.6387194, -73.7777912], [40.6471076, -73.7777912], [40.6471076, -73.7666796], [40.6387194, -73.7666796]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_27c6a03ae2264b6ca1c00034a863a154);
+        
+    
+            rectangle_70597a770d9b41638d71d07a52f5730a.bindTooltip(
+                `<div>
+                     Кластер 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
